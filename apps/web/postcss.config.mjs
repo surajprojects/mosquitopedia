@@ -1,5 +1,3 @@
-const config = {
-  plugins: ["@tailwindcss/postcss"],
-};
+import { postcssConfig } from "@mosquitopedia/tailwind-config/postcss";
 
-export default config;
+export default postcssConfig;
