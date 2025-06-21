@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-heading: 'Fredoka', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+}
