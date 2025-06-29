@@ -1,6 +1,6 @@
 import { GithubIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "./icons";
 
-export default function Footer() {
+export function Footer() {
     return (
         <>
             <footer className="w-full h-32 sm:h-52 flex justify-center font-primary">
@@ -28,7 +28,7 @@ export default function Footer() {
                             </a>
                         </div>
                     </div>
-                    <div className="text-sm sm:text-base text-black font-medium text-center flex flex-col items-center">
+                    <div className="text-sm sm:text-lg text-black font-medium text-center flex flex-col items-center">
                         <span>Made with ❤️ by TigerxInsights &copy; 2025</span>
                         <span>Your insights, our priority</span>
                     </div>

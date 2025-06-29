@@ -9,9 +9,9 @@ import "@mosquitopedia/ui/styles.css";
 
 // Other imports
 import { ToastContainer } from "react-toastify";
-import Header from "@mosquitopedia/ui/header";
-import Footer from "@mosquitopedia/ui/footer";
+import { Header, Footer } from "@mosquitopedia/ui";
 
+// Create font variables
 const fredoka = Fredoka({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -25,11 +25,13 @@ const poppins = Poppins({
   display: "swap",
 });
 
+// Metadata export
 export const metadata: Metadata = {
   title: "Mosquitopedia",
   description: "Find any mosquito, anytime.",
 };
 
+// Root layout export
 export default function RootLayout({
   children,
 }: Readonly<{
