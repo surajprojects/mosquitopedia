@@ -2,7 +2,7 @@
 import { MosquitoCard } from "@mosquitopedia/ui";
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 
-// Homepage export
+// Home page export
 export default function Home() {
   return (
     <>

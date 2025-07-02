@@ -22,7 +22,7 @@ export function MosquitoCard({
     return (
         <>
             {/* Card Wrapper */}
-            <div className="w-72 rounded-2xl bg-amber-200 border shadow-md">
+            <div className="w-72 rounded-2xl bg-amber-200 border shadow-md hover:cursor-pointer">
                 {/* Card Image */}
                 <div className="relative w-full h-48 border-b">
                     <Image
