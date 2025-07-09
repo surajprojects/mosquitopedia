@@ -14,7 +14,7 @@ export default function Login() {
             // await axiosInstance.post("/contact", formData);
             // router.push("/");
             // toast.success("Successfully received the message!!!");
-            alert("Successfully received the message!!!");
+            alert("Successfully received the login request!!!");
         }
         catch (error) {
             console.log(error);

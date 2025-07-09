@@ -1,12 +1,7 @@
 "use client"
 
+import { contactFormType } from "@mosquitopedia/types";
 import { ChangeEvent, useState } from "react";
-
-interface contactFormType {
-    name: string,
-    email: string,
-    message: string,
-}
 
 export function ContactForm({ handleSubmitForm }: { handleSubmitForm: (formData: contactFormType) => void }) {
 
@@ -43,8 +38,7 @@ export function ContactForm({ handleSubmitForm }: { handleSubmitForm: (formData:
                                 message: "",
                             })
                         }}
-                        className="space-y-8"
-                    >
+                        className="space-y-8">
                         <div>
                             <label
                                 htmlFor="name"

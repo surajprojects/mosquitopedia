@@ -28,18 +28,22 @@ export function LoginForm({ handleSubmitForm }: { handleSubmitForm: (formData: l
 
     return (
         <>
-            <section className="flex border-2 w-5/12 rounded-2xl">
-                <div className="relative w-80 h-80">
+            <section className="flex border-2 w-5/12 rounded-2xl shadow-lg">
+                <div className="relative w-80 h-80 border-r-2">
                     <Image
                         src={"/login_img_01.png"}
                         alt="login_image"
                         fill
-                        className="aspect-square object-cover rounded-2xl"
+                        className="aspect-square object-cover object-[0%_32%] rounded-tl-2xl rounded-bl-2xl"
                     />
                 </div>
                 <div className="grow flex flex-col items-center p-8">
                     <h2 className="text-3xl font-medium underline mb-2">Login</h2>
-                    <form>
+                    <form onSubmit={
+                        (evt) => {
+                            evt.preventDefault();
+                            handleSubmitForm(formData);
+                        }}>
                         <div className="my-4">
                             <label htmlFor="username">Username</label>
                             <input
@@ -61,11 +65,11 @@ export function LoginForm({ handleSubmitForm }: { handleSubmitForm: (formData: l
                             />
                         </div>
                         <div className="flex justify-center my-6">
-                            <button type="submit" className="border border-black shadow-md py-1 px-3 text-white bg-green-500 rounded-xl hover:cursor-pointer hover:bg-green-600">Login</button>
+                            <button type="submit" className="border border-black shadow-md py-1 px-3 text-white bg-green-500 rounded-lg hover:cursor-pointer hover:bg-green-600">Login</button>
                         </div>
                     </form>
                 </div>
-            </section>
+            </section >
         </>
     );
 };
