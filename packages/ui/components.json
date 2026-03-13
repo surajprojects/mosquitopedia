@@ -11,11 +11,11 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@workspace/ui/components",
-    "utils": "@workspace/ui/lib/utils",
-    "hooks": "@workspace/ui/hooks",
-    "lib": "@workspace/ui/lib",
-    "ui": "@workspace/ui/components"
+    "components": "@mosquitopedia/ui/components",
+    "utils": "@mosquitopedia/ui/lib/utils",
+    "hooks": "@mosquitopedia/ui/hooks",
+    "lib": "@mosquitopedia/ui/lib",
+    "ui": "@mosquitopedia/ui/components"
   },
   "rtl": false,
   "menuColor": "default",

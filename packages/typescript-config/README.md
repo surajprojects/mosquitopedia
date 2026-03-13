@@ -1,3 +1,3 @@
-# `@workspace/typescript-config`
+# `@mosquitopedia/typescript-config`
 
 Shared typescript configuration for the workspace.

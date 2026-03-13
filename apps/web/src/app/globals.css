@@ -1,0 +1,6 @@
+@import "@mosquitopedia/ui/globals.css";
+
+@theme inline {
+  --font-heading: var(--font-fredoka);
+  --font-body: var(--font-poppins);
+}
