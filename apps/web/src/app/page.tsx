@@ -1,7 +1,11 @@
+import Hero from "@/components/home/hero";
+
 export default function Home() {
   return (
     <>
-      <h1>Mosquitopedia</h1>
+      <div className="w-full">
+        <Hero />
+      </div>
     </>
   );
 }

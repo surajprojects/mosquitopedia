@@ -3,4 +3,25 @@
 @theme inline {
   --font-heading: var(--font-fredoka);
   --font-body: var(--font-poppins);
+  --color-primary: #2cbd9e;
+  --color-secondary: #6a7282;
+  --color-foreground: #141b1f;
+}
+
+@layer components {
+  .btn {
+    @apply cursor-pointer transition duration-300 ease-in-out;
+  }
+
+  .transition-effect {
+    @apply transition duration-300 ease-in-out;
+  }
+
+  .glass {
+    @apply border-b border-white/10 bg-white/30 shadow-sm backdrop-blur-sm;
+  }
+
+  .section-wrapper {
+    @apply mx-auto w-full scroll-mt-8 px-4 py-20 md:px-8 xl:max-w-7xl;
+  }
 }
