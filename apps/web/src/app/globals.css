@@ -6,6 +6,8 @@
   --color-primary: #2cbd9e;
   --color-secondary: #6a7282;
   --color-foreground: #141b1f;
+  --color-section: #f6f9f8;
+  --color-sectionsecondary: #eef3f2;
 }
 
 @layer components {
