@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
-import logo from "@/assets/logo.png";
+import LogoTitle from "./logoTitle";
 import { HeaderLinksTypeList } from "@/utils/types/headerLinksType";
 
 export default function NavBar() {
@@ -23,14 +22,7 @@ export default function NavBar() {
       <header className="glass sticky top-0 z-50">
         <nav className="mx-auto flex w-full items-center justify-between px-6 py-3 md:px-12 xl:max-w-7xl">
           {/* Logo & Title */}
-          <div className="flex items-center justify-center gap-2">
-            <div className="size-7">
-              <Image src={logo} width={100} height={100} alt="logo" preload={true} />
-            </div>
-            <Link href="/" className="font-heading text-lg font-bold">
-              Mosquitopedia
-            </Link>
-          </div>
+          <LogoTitle />
 
           {/* Nav Links */}
           <div className="hidden items-center justify-around gap-x-2 text-sm font-medium sm:flex">

@@ -24,6 +24,10 @@
   }
 
   .section-wrapper {
-    @apply mx-auto w-full scroll-mt-8 px-4 py-20 md:px-8 xl:max-w-7xl;
+    @apply mx-auto w-full scroll-mt-8 px-6 py-20 md:px-12 xl:max-w-7xl;
   }
+}
+
+.no-select {
+  user-select: none;
 }
